@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1446582956 source:c:\users\user\documents\c++ projects\distracted judges\main.cpp
+	<cstdio>
+	<cstring>
+	<string>
+	<cmath>
+	<cstdlib>
+	<iostream>
+	<algorithm>
+	<vector>
+	<vector>
+	<queue>
+	<list>
+	<stack>
+	<map>
+	<sstream>
+	<climits>
+

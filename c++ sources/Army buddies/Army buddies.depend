@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1445355691 source:c:\users\user\documents\c++ projects\army buddies\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
