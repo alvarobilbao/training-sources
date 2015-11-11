@@ -16,10 +16,9 @@ public class Dijkstra {
 		dist = new ArrayList<Integer>();
 		dist.addAll(Collections.nCopies(AdjList.size(), INF));
 		dist.set(start, 0); // INF = 1*10^9 not MAX_INT to avoid overflow
-		PriorityQueue<IntegerPair> pq = new PriorityQueue<IntegerPair>(1, new Comparator<IntegerPair>() { // overriding
-																											// the
-																											// compare
-																											// method
+		//Create a priority queue, overriding the comparator method compare, to make dijkstra greedy
+		//pq stores a pair <dist from source,vertex>
+		PriorityQueue<IntegerPair> pq = new PriorityQueue<IntegerPair>(1, new Comparator<IntegerPair>() { 
 			public int compare(IntegerPair i, IntegerPair j) {
 				return i.first() - j.first();
 			}
